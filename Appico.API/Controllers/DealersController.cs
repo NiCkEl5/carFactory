@@ -28,20 +28,6 @@ namespace Appico.Api.Controllers
             return await _context.Dealer.ToListAsync();
         }
 
-        // GET: api/Dealer/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Dealer>> GetDealer(int id)
-        {
-            var dealer = await _context.Dealer.FindAsync(id);
-
-            if (dealer == null)
-            {
-                return NotFound();
-            }
-
-            return dealer;
-        }
-
         private bool DealerExists(long id)
         {
             return _context.Dealer.Any(e => e.Guid == id);
