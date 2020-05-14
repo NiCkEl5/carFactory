@@ -1,0 +1,7 @@
+export const FETCH_MODELS = 'FETCH_MODELS';
+export const FETCH_INVENTORY = 'FETCH_INVENTORY';
+export const FETCH_CONTACTS = 'FETCH_CONTACTS';
+export const FETCH_DEALERS = 'FETCH_DEALERS';
+export const CREATE_CONTACT = 'CREATE_CONTACT';
+export const CREATE_ERROR = 'CREATE_ERROR';
+export const CLEAR_ERROR = 'CLEAR_ERROR';
